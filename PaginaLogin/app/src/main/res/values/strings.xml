@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Pagina Login</string>
+    <string name="Usuario">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="boton_ingreso">Ingresar</string>
+    <string name="ingreso_correcto">Ingreso Correcto</string>
+    <string name="ingreso_incorrecto">Ingreso Incorrecto</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

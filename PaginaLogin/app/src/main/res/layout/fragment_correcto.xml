@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_correcto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/verde_claro"
+    tools:context=".CorrectoFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="20dp"
+        android:layout_margin="10dp"
+        android:foregroundGravity="center"
+        app:cardBackgroundColor="@color/teal_200"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/ingreso_correcto" />
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
